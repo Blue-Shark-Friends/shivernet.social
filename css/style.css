@@ -34,6 +34,13 @@ body {
   color: black;
 }
 
+.shiverlogobox {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  gap: 20px;
+}
+
 .poweredby p {
   margin-top:10px;
   margin-bottom: 10px;
