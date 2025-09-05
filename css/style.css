@@ -24,14 +24,29 @@ body {
   border: 2px solid #888888;
   border-radius: 30px;
   margin: 10px;
-  padding: 2px;
+  padding: 10px;
   box-shadow: 2px 5px black;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
   background-color: white;
   color: black;
+  padding: 10px;
+  gap: 10px;
+  width:fit-content;
+  vertical-align: center;
+}
+.poweredby .cardlink .shiverlogo {
+	vertical-align: center;
+	margin: 10px;
+	display: flex;
+}
+.poweredby .cardlink .shiverdetails {
+	
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .shiverlogobox {
@@ -343,6 +358,13 @@ p.inline {
 }
 
 .socialbox {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  gap: 20px;
+}
+
+.shiverbox {
   display: flex;
   margin: auto;
   align-items: center;
