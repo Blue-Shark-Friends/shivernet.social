@@ -15,7 +15,13 @@ app.get('/', function(req, res) {
   res.render('pages/index', {index_data: index_data, branding_data: branding_data});
 });
 
+// hosting page
+let hosting_data = require('./views/data/hosting.json')
+app.get('/hosting', function(req, res) {
+  res.render('pages/hosting', {hosting_data: hosting_data, branding_data: branding_data});
+});
+
 // end of pages
 
-app.listen(8080, "169.197.80.54");
+app.listen(8080); //, "169.197.80.54");
 console.log('Server is listening on port 8080');

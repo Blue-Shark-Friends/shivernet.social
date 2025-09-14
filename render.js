@@ -28,6 +28,23 @@ app.render('pages/index', {index_data: index_data, branding_data: branding_data}
     }
 });
 
+// hosting page
+let hosting_data = require('./views/data/hosting.json')
+app.render('pages/hosting', {hosting_data: hosting_data, branding_data: branding_data}, (err, res) =>{
+    if (err) {
+        console.error('Error rendering');
+    } else {
+        console.log(__dirname + '/hosting.html')
+        fs.writeFile(__dirname + '/hosting.html', res, err => {
+            if (err) {
+              console.error(err);
+            } else {
+              // file written successfully
+            }
+          });
+    }
+});
+
 // end of pages
 
 console.log('Static files generated.');

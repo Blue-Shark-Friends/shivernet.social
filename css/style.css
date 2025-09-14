@@ -12,6 +12,14 @@ body {
   width:fit-content;
 }
 
+.subpage-content {
+  margin: 0 auto;
+}
+
+.subpage-content h2 {
+  margin: 0 auto;
+}
+
 .main {
   margin-top: 20px;
   display: flex;
@@ -368,6 +376,24 @@ p.inline {
   color: #F5A9B8;
 }
 
+.hosting div {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.hosting h3 {
+  color: #dd526e;
+  margin-bottom: 5px;
+}
+
+.hosting p {
+  text-align: left;
+}
+
+.hosting b {
+  color: #F5A9B8;
+}
+
 .license {
   font-size: small;
 }
@@ -409,8 +435,14 @@ p.inline {
   .content {
     width: 100%;
   }
+  .subpage-content {
+    width: 50%;
+  }
   .content p {
     width: 50%;
+  }
+  .subpage-content p {
+    width: auto;
   }
   .bio {
     width: 50%;
@@ -430,8 +462,14 @@ p.inline {
   .content {
     width: 100%;
   }
+  .subpage-content {
+    width: 80%;
+  }
   .content p {
     width: 80%;
+  }
+  .subpage-content p {
+    width: auto;
   }
   .script-text {
     margin-left: 10%;
