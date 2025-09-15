@@ -20,6 +20,41 @@ body {
   margin: 0 auto;
 }
 
+div.pros-cons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: auto;
+  flex-wrap: wrap;
+  align-items: start;
+  padding-bottom: 0;
+}
+
+.hosting div.pros-cons {
+  padding-bottom: 0;
+}
+
+div.column {
+  width: 50%;
+  padding-bottom: 0;
+}
+
+.hosting div.column {
+  padding-bottom: 0;
+}
+
+.pros h4 {
+  color: green;
+}
+
+.cons h4 {
+  color: red;
+}
+
+.column ul {
+  margin-bottom: 0;
+}
+
 .main {
   margin-top: 20px;
   display: flex;
