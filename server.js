@@ -23,5 +23,5 @@ app.get('/hosting', function(req, res) {
 
 // end of pages
 
-app.listen(8080); //, "169.197.80.54");
+app.listen(8080, "169.197.80.54");
 console.log('Server is listening on port 8080');
